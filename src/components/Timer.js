@@ -5,7 +5,8 @@ import LongBreak from './LongBreak'
 import TodoList from './TodoList'
 import CurrentDateTime from './CurrentDateTime'
 import Spotify from './Spotify'
-import Alarm from './Alarm'
+import ScrollDown from './ScrollDown'
+import Alarm from './Alarm';
 
 import Tomato from '../Image/tomato.svg'
 import Reset from '../Image/refresh.svg'
@@ -74,7 +75,8 @@ const CountDownTimer = () => {
           <img src={Reset} className='w-8 h-8' /> <span className='hidden md:flex'>Reset</span>
         </button>
       </div>
-      <div className="flex flex-col  md:self-center gap-10 md:gap-10 p-5 md:p-10 sm:w-[90%] md:w-[60%] backdrop-blur-[20px] bg-red-400 md:rounded-xl shadow-lg shadow-gray-400" >
+      <ScrollDown/>
+      <div className="flex flex-col  md:self-center gap-10 md:gap-10 p-5 m-10 md:p-10 sm:w-[90%] md:w-[60%] backdrop-blur-[20px] bg-red-400 md:rounded-xl shadow-lg shadow-gray-400" >
         <div className='flex justify-around ' >
           <ShortBreak isActive={isShortTimerActive} activateComponent={activateComponent}/>
           <LongBreak isActive={isLongTimerActive} activateComponent={activateComponent}/>
@@ -86,8 +88,8 @@ const CountDownTimer = () => {
           <button data-name='base-timer'
           className='self-center w-[100px] px-4 py-1 bg-black text-white rounded hover:text-red-500'
           onClick={activateComponent}>{isActive ? 'Pause' : 'Start'}
-          <Alarm alarmTime={seconds}/>
           </button>
+          {/* <Alarm alarmTime={seconds}/> */}
         </div>
         <Spotify/>
       </div>

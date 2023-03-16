@@ -21,7 +21,7 @@ const Alarm = ({ alarmTime }) => {
 
   return (
     <div>
-      {playing ? <audio autoPlay loop src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" /> : null}
+      {playing ? <audio autoPlay src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" /> : null}
       {playing ? <button onClick={stopAlarm}>Stop Alarm</button> : null}
     </div>
   );

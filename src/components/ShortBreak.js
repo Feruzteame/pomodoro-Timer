@@ -28,8 +28,8 @@ function ShortBreak({isActive, activateComponent}) {
         className='px-4 py-1 bg-black text-white rounded hover:text-red-500'
         onClick={activateComponent}>
           { isActive ? 'Pause' : 'Start' }
-           <Alarm alarmTime={time}/>
         </button>
+        {/* <Alarm alarmTime={time}/> */}
       </div>
     </div>
   );
