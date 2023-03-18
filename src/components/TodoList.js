@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import 'animate.css';
 
 import { confirmAlert } from 'react-confirm-alert';  
@@ -109,6 +109,7 @@ function TodoList() {
         className='flex gap-4  odd:bg-red-400 even:bg-red-300 px-4 rounded-md animate__animated animate__zoomIn animate__faster'
         key={index}>
           <input
+            className='my-6 w-5 h-5'
             type="checkbox"
             checked={todo.done}
             onChange={() => toggleDone(index)}
@@ -120,7 +121,7 @@ function TodoList() {
             onChange={(event) => editTodoText(index, event.target.value)}
           />
           <button className='' onClick={() => deleteTodo(index)}>
-            <img src={ Cancel } className='md:w-8 md:h-8' />
+            <img src={ Cancel } alt='cancel' className='md:w-8 md:h-8' />
           </button>
         </div>
         ))}

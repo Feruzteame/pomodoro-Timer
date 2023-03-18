@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 30 minute Pomodoro Timer App
+The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. It uses a kitchen timer to break work into intervals, typically 25 minutes in length, separated by short breaks. What do you think if we can use in 30 minute length for any kind of daily task.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="500" alt="Screenshot 2023-03-18 at 08 12 15" src="https://user-images.githubusercontent.com/59234162/226091811-7be38945-08d2-468a-ab81-13f0cdfdff21.png">
+<img width="500" alt="Screenshot 2023-03-18 at 08 13 04" src="https://user-images.githubusercontent.com/59234162/226091801-642418d4-eaea-4325-8eeb-2ec6f50980df.png">
 
-## Available Scripts
 
-In the project directory, you can run:
+## Aim of the project
+- <b>As user</b> 
+   - To focus to your task for 30min
+   - you can take long/short break
+   - listen music while working
+   - make a list/step of you work
 
-### `npm start`
+- <b>As Developer</b> 
+   - project combine React and tailwind
+   - practice time interval
+   - practice fetch in react
+   - practice Crud
+   - Integrate with another app
+   - implement simple animation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Next Feature
+   - Alarm After you short/long break is done
+   
+## Technologies
+- React
+- Tailwind
+- Netlify
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tools
+- Git and Github
+- Visual-studio code
 
-### `npm test`
+## Package
+- [Animation style](https://animate.style/)
+- [react-confirm-alert](https://www.npmjs.com/package/react-confirm-alert)
+- [spotify-web-api-js](https://www.npmjs.com/package/spotify-web-api-js)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## You need to work on the project or need to see on the local host
 
-### `npm run build`
+1. `git clone git@github.com:Feruzteame/pomodoro-Timer.git`
+2. `npm i`
+3. `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contrubitors
+- [FERUZ](https://github.com/Feruzteame)
