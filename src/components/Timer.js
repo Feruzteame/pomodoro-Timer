@@ -6,7 +6,7 @@ import TodoList from './TodoList'
 import CurrentDateTime from './CurrentDateTime'
 import Spotify from './Spotify'
 import ScrollDown from './ScrollDown'
-import Alarm from './Alarm';
+//import Alarm from './Alarm';
 
 import Tomato from '../Image/tomato.svg'
 import Reset from '../Image/refresh.svg'
@@ -69,10 +69,10 @@ const CountDownTimer = () => {
       <div className='flex flex-col p-5 md:p-0 md:flex-row md:justify-between w-full md:bg-red-400'>
         <CurrentDateTime/>
         <p className='hidden md:flex self-center content-end w-auto md:pt-5 text-lg md:text-4xl'>
-          P<img src={ Tomato } className='w-9 h-9 animate__animated animate__jello animate__infinite'></img>modoro Timer
+          P<img src={ Tomato } alt='tomato' className='w-9 h-9 animate__animated animate__jello animate__infinite'></img>modoro Timer
         </p>
         <button className='p-5 self-center md:self-end w-20 h-20 md:w-auto md:h-auto rounded-full md:rounded md:rounded-l-full -none bg-red-400 md:bg-white text-slate-500 hover:text-red-500 hover:underline' onClick={reset}>
-          <img src={Reset} className='w-8 h-8' /> <span className='hidden md:flex'>Reset</span>
+          <img src={Reset} alt='reset' className='w-8 h-8' /> <span className='hidden md:flex'>Reset</span>
         </button>
       </div>
       <ScrollDown/>

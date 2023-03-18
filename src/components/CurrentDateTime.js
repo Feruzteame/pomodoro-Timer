@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Tomato from '../Image/tomato.svg'
+//import Alarm from './Alarm'
 
 function CurrentDateTime() {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());

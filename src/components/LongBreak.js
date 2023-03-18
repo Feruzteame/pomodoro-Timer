@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Alarm from './Alarm'
+//import Alarm from './Alarm'
 
 function LongBreak({isActive, activateComponent}) {
    const [time, setTime] = useState(10 * 60);
