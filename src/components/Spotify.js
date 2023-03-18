@@ -22,7 +22,7 @@ useEffect(() => {
 });
   return(
     <iframe
-    title="spotify"
+    title='spotify'
     className='h-[200px] md:h-[80px] m-0'
     src={`https://open.spotify.com/embed?uri=${trackUri}`}
     width="100%"/>
